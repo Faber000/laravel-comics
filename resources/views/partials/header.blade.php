@@ -1,12 +1,12 @@
 <header>
     <div class="header-top">
-        <div class="container flex-end">
+        <div class="my-container">
             <div>DC POWER VISA</div>
             <div>ADDITIONAL DC SITES</div>
         </div>
     </div>
-    <div class="header-middle flex">
-        <div class="container">
+    <div class="header-middle">
+        <div class="my-container">
             <nav class="main-nav">
                 <div class="logo-div">
                     <img class="logo" src="{{asset('img/dc-logo.png')}}"/>
