@@ -121,8 +121,6 @@
     align-items: center;
 }
 
-.service > h2 {
+.service > h4 {
     color: white;
-    font-size: 15px;
-    margin-right: 30px;
 } 

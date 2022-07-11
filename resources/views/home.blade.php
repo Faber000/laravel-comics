@@ -22,23 +22,23 @@
             <div class="services">
                 <div class="service first">
                     <img class="item" src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
-                    <h2>DIGITAL COMICS</h2>
+                    <h4>DIGITAL COMICS</h4>
                 </div>
                 <div class="service">
                     <img class="item" src="{{asset('img/buy-comics-merchandise.png')}}" alt="">
-                    <h2>DC MERCHANDISE</h2>
+                    <h4>DC MERCHANDISE</h4>
                 </div>
                 <div class="service">
                     <img class="item" src="{{asset('img/buy-comics-subscriptions.png')}}" alt="">
-                    <h2>SUBSCRIPTIONS</h2>
+                    <h4>SUBSCRIPTIONS</h4>
                 </div>
                 <div class="service">
                     <img class="item" src="{{asset('img/buy-comics-shop-locator.png')}}" alt="">
-                    <h2>COMIC SHOP LOCATOR</h2>
+                    <h4>COMIC SHOP LOCATOR</h4>
                 </div>
                 <div class="service">
                     <img class="item" src="{{asset('img/buy-dc-power-visa.svg')}}" alt="">
-                    <h2>DC POWER VISA</h2>
+                    <h4>DC POWER VISA</h4>
                 </div>
             </div>
         </div>

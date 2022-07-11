@@ -19,3 +19,15 @@ Route::get('/', function () {
 
     return view('home', compact('comics'));
 });
+
+Route::get('prodotto/{id}', function ($id) {
+    $comics = config('comics');
+
+    if($id >= count($comics)) {
+        abort('404');
+    }
+
+    $prodotto = $comics[$id];
+
+    return view('product', compact('prodotto'));
+})->where('id', '[0-9]+')->name('product');
